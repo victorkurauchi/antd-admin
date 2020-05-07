@@ -14,6 +14,7 @@ const gen = params => {
   }
 
   return function(data) {
+    console.log('whats the url', url);
     return request({
       url,
       data,
